@@ -12,14 +12,14 @@ const Hero: React.FC = () => {
             <div className="max-w-4xl mx-auto">
             <div className="mb-8">
                 <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full mx-auto mb-6 flex items-center justify-center text-white text-4xl font-bold shadow-xl">
-                田
+                    <img src={"/src/assets/face.png"} className="w-full h-full object-cover rounded-full" />
                 </div>
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-6 leading-tight">
-                田中 太郎
+                藤井 幹太
                 <span className="block text-3xl md:text-4xl text-blue-600 mt-2">
-                ITエンジニア
+                エンジニア志望大学院生
                 </span>
             </h1>
             
@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex justify-center gap-6 mb-12">
-                <a href="#" className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow duration-200 text-slate-700 hover:text-blue-600">
+                <a href="https://github.com/kanta1129" className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow duration-200 text-slate-700 hover:text-blue-600">
                 <Github size={24} />
                 </a>
                 <a href="#" className="flex items-center justify-center w-12 h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-shadow duration-200 text-slate-700 hover:text-blue-600">
