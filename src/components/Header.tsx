@@ -28,6 +28,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-slate-800">
+            Kanta's
             Portfolio
           </div>
 
@@ -35,31 +36,31 @@ const Header: React.FC = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('about')}
-              className="text-slate-600 hover:text-blue-600 transition-colors duration-200"
+              className="text-white hover:text-blue-600 transition-colors duration-200"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection('skills')}
-              className="text-slate-600 hover:text-blue-600 transition-colors duration-200"
+              className="text-white hover:text-blue-600 transition-colors duration-200"
             >
               Skills
             </button>
             <button
               onClick={() => scrollToSection('projects')}
-              className="text-slate-600 hover:text-blue-600 transition-colors duration-200"
+              className="text-white hover:text-blue-600 transition-colors duration-200"
             >
               Projects
             </button>
             <button
               onClick={() => scrollToSection('experience')}
-              className="text-slate-600 hover:text-blue-600 transition-colors duration-200"
+              className="text-white hover:text-blue-600 transition-colors duration-200"
             >
               Experience
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="text-slate-600 hover:text-blue-600 transition-colors duration-200"
+              className="text-white hover:text-blue-600 transition-colors duration-200"
             >
               Contact
             </button>
